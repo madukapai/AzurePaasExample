@@ -13,9 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisCacheWebsite", "RedisC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorageWebsite", "AzureStorageWebsite\AzureStorageWebsite.csproj", "{6EAFFDB6-6BE7-4B31-BD81-9495260BBF37}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SqlDatabase", "SqlDatabase", "{E0F12A44-8652-4041-B3CC-B38FD3B94B06}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAppChange", "WebAppChange", "{E0F12A44-8652-4041-B3CC-B38FD3B94B06}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationInsightsWebsite", "ApplicationInsightsWebsite\ApplicationInsightsWebsite.csproj", "{6DB643C5-EFCA-4B00-B211-87033E397F83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppChangeWebsite", "WebAppChangeWebsite\WebAppChangeWebsite.csproj", "{D834DCD1-FFC4-46DD-BFAC-847BA95DA2A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{6DB643C5-EFCA-4B00-B211-87033E397F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DB643C5-EFCA-4B00-B211-87033E397F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DB643C5-EFCA-4B00-B211-87033E397F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D834DCD1-FFC4-46DD-BFAC-847BA95DA2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D834DCD1-FFC4-46DD-BFAC-847BA95DA2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D834DCD1-FFC4-46DD-BFAC-847BA95DA2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D834DCD1-FFC4-46DD-BFAC-847BA95DA2A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,5 +49,6 @@ Global
 		{A08762CD-C85E-4D83-8D20-2B11377B3975} = {E56FD9B3-B4BC-4EAF-A29E-0404882D5C3B}
 		{6EAFFDB6-6BE7-4B31-BD81-9495260BBF37} = {B1F11DF0-A3F2-4585-AC9D-A80BBAAAF18D}
 		{6DB643C5-EFCA-4B00-B211-87033E397F83} = {FB3853FC-5362-4F76-B1CF-2703D00A838E}
+		{D834DCD1-FFC4-46DD-BFAC-847BA95DA2A9} = {E0F12A44-8652-4041-B3CC-B38FD3B94B06}
 	EndGlobalSection
 EndGlobal

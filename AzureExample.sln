@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationInsights", "ApplicationInsights", "{FB3853FC-5362-4F76-B1CF-2703D00A838E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RedisCache", "RedisCache", "{E56FD9B3-B4BC-4EAF-A29E-0404882D5C3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storage", "Storage", "{B1F11DF0-A3F2-4585-AC9D-A80BBAAAF18D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisCacheWebsite", "RedisCacheWebsite\RedisCacheWebsite.csproj", "{A08762CD-C85E-4D83-8D20-2B11377B3975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorageWebsite", "AzureStorageWebsite\AzureStorageWebsite.csproj", "{6EAFFDB6-6BE7-4B31-BD81-9495260BBF37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SqlDatabase", "SqlDatabase", "{E0F12A44-8652-4041-B3CC-B38FD3B94B06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationInsightsWebsite", "ApplicationInsightsWebsite\ApplicationInsightsWebsite.csproj", "{6DB643C5-EFCA-4B00-B211-87033E397F83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A08762CD-C85E-4D83-8D20-2B11377B3975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08762CD-C85E-4D83-8D20-2B11377B3975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08762CD-C85E-4D83-8D20-2B11377B3975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08762CD-C85E-4D83-8D20-2B11377B3975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EAFFDB6-6BE7-4B31-BD81-9495260BBF37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EAFFDB6-6BE7-4B31-BD81-9495260BBF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EAFFDB6-6BE7-4B31-BD81-9495260BBF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EAFFDB6-6BE7-4B31-BD81-9495260BBF37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB643C5-EFCA-4B00-B211-87033E397F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB643C5-EFCA-4B00-B211-87033E397F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB643C5-EFCA-4B00-B211-87033E397F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB643C5-EFCA-4B00-B211-87033E397F83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A08762CD-C85E-4D83-8D20-2B11377B3975} = {E56FD9B3-B4BC-4EAF-A29E-0404882D5C3B}
+		{6EAFFDB6-6BE7-4B31-BD81-9495260BBF37} = {B1F11DF0-A3F2-4585-AC9D-A80BBAAAF18D}
+		{6DB643C5-EFCA-4B00-B211-87033E397F83} = {FB3853FC-5362-4F76-B1CF-2703D00A838E}
+	EndGlobalSection
+EndGlobal
